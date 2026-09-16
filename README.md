@@ -7,6 +7,11 @@ night. Click any tile to see the full details for that object.
 No build step, no dependencies — it's plain HTML/CSS/JS, so it runs
 straight from the file or from GitHub Pages.
 
+##
+[**View the live log →**](https://ardjanwestveer.github.io/messier-tracker/)
+
+
+
 ## Try it locally
 
 Just open `index.html` in a browser. Everything is self-contained (the
