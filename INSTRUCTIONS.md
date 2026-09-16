@@ -1,17 +1,4 @@
-# The Messier Log
-
-A single tracking page for all 110 objects in the Messier catalogue: which
-ones you've photographed, and which ones are still waiting for a clear
-night. Click any tile to see the full details for that object.
-
-## View the live log [**here**](https://ardjanwestveer.github.io/messier-tracker/)
-
-> **Disclaimer:** this site was built with AI assistance — I'm not
-> claiming the code as entirely my own work. Feel free to fork it or
-> build something similar for your own catalogue. The photos, however,
-> are mine: please don't reuse or redistribute them without asking me
-> first. Also, this is a work in progress — plenty of objects here are
-> still unphotographed, and details may be incomplete or change as I go.
+# Instructions (for me, not the README)
 
 ## Try it locally
 
