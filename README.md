@@ -6,7 +6,7 @@ night. Click any tile to see the full details for that object.
 
 ## View the live log [**here**](https://ardjanwestveer.github.io/messier-tracker/)
 
-> **Disclaimer:** this site was built with AI assistance — I'm not
+> **Disclaimer:** this site was built with Claude — I'm not
 > claiming the code as entirely my own work. Feel free to fork it or
 > build something similar for your own catalogue. The photos, however,
 > are mine: please don't reuse or redistribute them without asking me
