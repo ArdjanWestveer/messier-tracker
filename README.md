@@ -13,55 +13,6 @@ night. Click any tile to see the full details for that object.
 > first. Also, this is a work in progress — plenty of objects here are
 > still unphotographed, and details may be incomplete or change as I go.
 
-## Try it locally
-
-Just open `index.html` in a browser. Everything is self-contained (the
-catalogue data is embedded in `js/data.js`), so no server is required.
-
-## Add a photo you've taken
-
-1. Drop the image file into `images/` (e.g. `images/m42.jpg`).
-2. Open `js/data.js` and find that object's entry — they're in catalog
-   order, so `M42` is the 42nd entry.
-3. Fill it in:
-
-```js
-{
-  "id": 42,
-  "catalog": "M42",
-  "commonName": "Orion Nebula",
-  "type": "Emission nebula",
-  "constellation": "Orion",
-  "photographed": true,
-  "image": "images/m42.jpg",
-  "datePhotographed": "2026-01-14",
-  "equipment": "80mm refractor, ZWO ASI2600MC, 2hr integration",
-  "exposure": "48 x 150s",
-  "notes": "First real test of the new guide scope. Core a little blown out — reshoot with shorter subs."
-}
-```
-
-Only `photographed` and `image` control what shows on the card itself;
-`datePhotographed`, `equipment`, `exposure`, and `notes` are optional and
-only appear in the detail panel when filled in. Save the file, refresh the
-page, and the progress bar and grid update automatically.
-
-## Put it on GitHub
-
-```bash
-cd messier-tracker
-git init
-git add .
-git commit -m "Start the Messier log"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
-
-Then turn on **GitHub Pages** for the repo (Settings → Pages → Deploy from
-branch → `main` / root), and the log will be live at
-`https://<your-username>.github.io/<repo-name>/`.
-
 ## Project layout
 
 ```
