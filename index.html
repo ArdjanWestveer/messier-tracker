@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Messier Log</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✦</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <p class="eyebrow">Charles Messier's Catalogue, 1771–1781</p>
+    <h1>The Messier Log</h1>
+    <p class="subhead">A running record of the 110 deep-sky objects, and how many I've managed to catch through the eyepiece.</p>
+  </div>
+
+  <div class="progress-block">
+    <div class="progress-numbers">
+      <span id="progress-count">0</span><span class="progress-of"> / 110 captured</span>
+    </div>
+    <div class="progress-track">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <p class="progress-note" id="progress-note"></p>
+  </div>
+</header>
+
+<main>
+  <div class="controls">
+    <div class="filter-group" id="status-filters">
+      <button class="filter-chip is-active" data-filter="all">All objects</button>
+      <button class="filter-chip" data-filter="photographed">Captured</button>
+      <button class="filter-chip" data-filter="missing">Still to catch</button>
+    </div>
+
+    <div class="controls-right">
+      <select id="type-filter" class="type-select" aria-label="Filter by object type">
+        <option value="all">Every type</option>
+      </select>
+      <select id="sort-select" class="type-select" aria-label="Sort order">
+        <option value="catalog">Sort by catalog number</option>
+        <option value="constellation">Sort by constellation</option>
+        <option value="status">Sort by status</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="grid" id="object-grid"></div>
+</main>
+
+<footer class="site-footer">
+  <p>110 objects, one sky. Edit <code>data/messier.json</code> as you go — drop each photo in <code>images/</code> and point <code>image</code> at it.</p>
+</footer>
+
+<!-- Detail panel -->
+<div class="detail-overlay" id="detail-overlay">
+  <div class="detail-card" id="detail-card" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+    <button class="detail-close" id="detail-close" aria-label="Close">&times;</button>
+    <div class="detail-media" id="detail-media"></div>
+    <div class="detail-body">
+      <p class="detail-plate" id="detail-plate"></p>
+      <h2 id="detail-title"></h2>
+      <p class="detail-meta" id="detail-meta"></p>
+      <dl class="detail-facts" id="detail-facts"></dl>
+      <div class="detail-notes" id="detail-notes"></div>
+    </div>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
