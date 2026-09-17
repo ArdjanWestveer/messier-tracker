@@ -164,12 +164,12 @@ const MESSIER_DATA = [
     "commonName": "Hercules Cluster",
     "type": "Globular cluster",
     "constellation": "Hercules",
-    "photographed": false,
-    "image": null,
-    "datePhotographed": null,
-    "equipment": null,
-    "exposure": null,
-    "notes": null
+    "photographed": true,
+    "image": "images/M13.jpg",
+    "datePhotographed": "2025-12-25",
+    "equipment": "SkyWatcher 150P, SkyWatcher EQ6R PRO, ZWO ASI 585MC PRO",
+    "exposure": "14 x 30s",
+    "notes": "Just a simple test shot, not too much data taken for this one"
   },
   {
     "id": 14,
@@ -346,12 +346,12 @@ const MESSIER_DATA = [
     "commonName": "Dumbbell Nebula",
     "type": "Planetary nebula",
     "constellation": "Vulpecula",
-    "photographed": false,
-    "image": null,
-    "datePhotographed": null,
-    "equipment": null,
-    "exposure": null,
-    "notes": null
+    "photographed": true,
+    "image": "images/M27.jpg",
+    "datePhotographed": "2025-11-02",
+    "equipment": "SkyWatcher 150P, SkyWatcher EQ6R PRO, ZWO ASI 585MC PRO",
+    "exposure": "11 x 300s",
+    "notes": "Could use some reprocessing"
   },
   {
     "id": 28,
@@ -398,12 +398,12 @@ const MESSIER_DATA = [
     "commonName": "Andromeda Galaxy",
     "type": "Spiral galaxy",
     "constellation": "Andromeda",
-    "photographed": false,
-    "image": null,
-    "datePhotographed": null,
-    "equipment": null,
-    "exposure": null,
-    "notes": null
+    "photographed": true,
+    "image": "images/M31_mosaic.jpg",
+    "datePhotographed": "2025-11-24",
+    "equipment": "SkyWatcher 150P, SkyWatcher EQ6R PRO, ZWO ASI 585MC PRO",
+    "exposure": "4 x 120s per panel",
+    "notes": "This is a 9 panel mosaic, only 4 shots of 120s were taken for each panel. Increadibly difficult to process"
   },
   {
     "id": 32,
@@ -541,12 +541,12 @@ const MESSIER_DATA = [
     "commonName": "Orion Nebula",
     "type": "Emission nebula",
     "constellation": "Orion",
-    "photographed": false,
-    "image": null,
-    "datePhotographed": null,
-    "equipment": null,
-    "exposure": null,
-    "notes": null
+    "photographed": true,
+    "image": "images/M42.jpg",
+    "datePhotographed": "2025-11-24",
+    "equipment": "SkyWatcher 150P, SkyWatcher EQ6R PRO, ZWO ASI 585MC PRO",
+    "exposure": "30 x 30s",
+    "notes": "This is a really close up image of the Orion Nebula, looks cool though"
   },
   {
     "id": 43,
