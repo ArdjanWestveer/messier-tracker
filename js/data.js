@@ -34,11 +34,11 @@ const MESSIER_DATA = [
     "commonName": null,
     "type": "Globular cluster",
     "constellation": "Canes Venatici",
-    "photographed": false,
-    "image": null,
-    "datePhotographed": null,
-    "equipment": null,
-    "exposure": null,
+    "photographed": true,
+    "image": "images/M3.jpg",
+    "datePhotographed": "2026-05-24",
+    "equipment": "SkyWatcher 150P, SkyWatcher EQ6R PRO, ZWO ASI 585MC PRO",
+    "exposure": "145 x 45s",
     "notes": null
   },
   {
