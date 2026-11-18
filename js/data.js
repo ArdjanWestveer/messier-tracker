@@ -580,11 +580,11 @@ const MESSIER_DATA = [
     "commonName": "Pleiades",
     "type": "Open cluster",
     "constellation": "Taurus",
-    "photographed": false,
-    "image": null,
-    "datePhotographed": null,
-    "equipment": null,
-    "exposure": null,
+    "photographed": true,
+    "image": "images/Pleiades2_08_03_2024.jpg",
+    "datePhotographed": "2024-03-08",
+    "equipment": "Nikon D3400, 70-300mm @ 300mm, SkyWatcher Star Adventurer GTi",
+    "exposure": "30 * 90s",
     "notes": null
   },
   {
